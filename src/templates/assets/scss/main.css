@@ -5920,6 +5920,13 @@ button.close {
     background-color: #21addd; }
     .sidebar-wrapper .nav li.active a {
       color: #fff; }
+  .sidebar-wrapper .nav .home-icon.active, .sidebar-wrapper .nav .home-icon.hover {
+    background-color: #fff; }
+  .sidebar-wrapper .nav .home-icon a:hover {
+    background-color: #fff; }
+  .sidebar-wrapper .nav .home-icon img {
+    width: 40%;
+    position: center; }
 
 body {
   background-color: #fff; }

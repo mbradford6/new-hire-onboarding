@@ -26,6 +26,20 @@
 				a { color: $white; }
 			}
 		}
+
+		.home-icon {
+			&.active, &.hover {
+				background-color: $white;
+			}
+			a:hover {
+				background-color: $white;
+			}
+			img {
+				width: 40%;
+				position: center;
+
+			}
+		}
 	}
 	
 }
