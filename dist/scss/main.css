@@ -5922,10 +5922,21 @@ button.close {
       color: #fff; }
 
 #development-framework-page p, #development-framework-page a {
-  font-family: SapientSansRegular; }
+  font-family: SapientSansRegular;
+  font-size: 16px; }
 
 #development-framework-page h2, #development-framework-page h3 {
   font-family: SapientSansBold; }
+
+#development-framework-page .well {
+  background-color: #040707;
+  color: #fff;
+  font-family: SapientSansLight; }
+
+#development-framework-page .installation-steps {
+  padding: 0 50px 0 50px; }
+  #development-framework-page .installation-steps p {
+    margin: 15px 0; }
 
 body {
   background-color: #fff; }

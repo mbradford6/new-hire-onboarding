@@ -7,13 +7,13 @@
       "theWhy": "Node.js handles the installation of open source applications through NPM, the package manager for the Node.js server platform. Node functions as a warehouse of third-party applications, while NPM not only delivers the packages but installs the code and manages the code dependencies. All installations are run through the command line.",
       "steps" : [
 				{
-					"list-step" : "Travel to https://nodejs.org/"
+					"list-step" : "1. Travel to https://nodejs.org/"
 				},
 				{
-					"list-step" : "Click the install button and follow the directions"
+					"list-step" : "2. Click the install button and follow the directions"
 				},
 				{
-					"list-step" : "Make sure the package is installed into /usr/local/bin"
+					"list-step" : "3. Make sure the package is installed into /usr/local/bin"
 				}
 			]
 
@@ -25,7 +25,7 @@
       "theWhy": "Yeoman combines several functions e.g., creating a starter template, managing dependencies, and providing a local development server. Angular, Assemble, Backbone are the types of projects, but not limited to, that can be instantiated through Yeoman.",
       "steps" : [
 				{
-					"list-step" : "Install throught the terminal"
+					"list-step" : "1. Open the terminal"
 				},
 				{
 					"list-step-terminal" : "npm install -g yo"
@@ -37,14 +37,55 @@
       "siteLink" : "http://sass-lang.com/",
       "openingRemark": "Sass is a stable, powerful CSS extension, such as allowing mechanisms availble in OO languages.",
       "theWhy": "Sass supports variable declaration, nesting, mixins, arguments, and selector inheritance.",
-      "steps" : [{}]
+      "steps" : [
+				{
+					"list-step" : "1. Open the terminal"
+				},
+				{
+					"list-step-terminal" : "gem install sass"
+				},
+				{
+					"list-step" : "**Gem should be preinstalled on Macs"
+				},
+				{
+					"list-step" : "2. If you get an error message, then use the sudo command to install the Sass gem"
+				},
+				{
+					"list-step-terminal" : "sudo gem install sass"
+				},
+				{
+					"list-step" : "3. Check installation"
+				},
+				{
+					"list-step-terminal" : "sass -v"
+				},
+				{
+					"list-step" : "The terminal should print out Sass 3.4.13"
+				}
+			]
     },
     {
       "tool" : "Handlebars.js",
       "siteLink" : "http://handlebarsjs.com/",
       "openingRemark": "Handlebars build semantic templates.",
       "theWhy": "Handlebars.js is compatible with Mustache.js, but can handel extensibility and minimal logic with #if, #unless, #with, and #each helpers.",
-      "steps" : [{}]
+      "steps" : [
+				{
+					"list-step" : "Handlebars does not provide a global installation."
+				},
+				{
+					"list-step" : "1. Go to the website http://handlebarsjs.com/"
+				},
+				{
+					"list-step" : "2. Click the provided download button"
+				},
+				{
+					"list-step" : "The files will need to be added to the project"
+				},
+				{
+					"list-step" : "If you created an assemble project, the functionality for handlebars has already been created."
+				}
+			]
     }
 	]
 }
