@@ -2,11 +2,25 @@
 
   p, a{
     font-family: SapientSansRegular;
+    font-size: 16px;
   }
 
   h2, h3{
     font-family: SapientSansBold;
   }
 
+  .well{
+    background-color: $piano-black;
+    color: $white;
+    font-family: SapientSansLight;
+  }
+
+  .installation-steps{
+    padding: 0 50px 0 50px;
+
+    p{
+      margin: 15px 0;
+    }
+  }
 
 }

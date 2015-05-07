@@ -5,16 +5,15 @@
           <p class="framework-blurb">{{this.openingRemark}}</p>
           <p class="framework-function">{{this.theWhy}}</p>
 
-          <div clas="installation-steps">
+          <div class="installation-steps">
               {{#each this.steps}}
                   {{#if this.list-step-terminal}}
-                    <li>{{this.list-step-terminal}}</li>
+                    <div class="well">{{this.list-step-terminal}}</div>
                   {{else}}
-                    <li>{{this.list-step}}</li>
+                    <p>{{this.list-step}}</p>
                   {{/if}}
               {{/each}}
           </div>
-
           <a class="external-link" href="{{this.siteLink}}">Checkout their website for more information <span class="icon-forward"></span></a>
         </div>
     {{/each}}
