@@ -19,49 +19,35 @@
   <body>
 
     
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">New hire onboarding</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <!-- you can exclude pages using {{#isnt}} helper: {{#isnt data.title 'Blog'}} -->
-            <li>
-              <a href="blog.html">Blog</a>
-            </li>
-            <li class="active">
-              <a href="index.html">Home</a>
-            </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Github <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="https://github.com/assemble/assemble">Assemble</a></li>
-                <li><a href="https://github.com/assemble/generator-assemble">Generator Assemble</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Plugins</li>
-                
-              </ul>
-            </li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+    
+    <div class="navbar navbar-inverse nav-stacked" role="navigation">
+    	<div class="container">
+    		<div class="navbar-header">
+    			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+    	        <span class="sr-only">Toggle navigation</span>
+    	        <span class="icon-bar"></span>
+    	        <span class="icon-bar"></span>
+    	        <span class="icon-bar"></span>
+    	      </button>
+    		</div>
+    		<div class="navbar-collapse">
+    			<ul class="nav navbar-nav">
+    				<!-- you can exclude pages using {{#isnt}} helper: {{#isnt data.title 'Blog'}} -->
+    					<li>
+    						<a href="blog.html">Text</a>
+    					</li>
+    					<li class="active">
+    						<a href="index.html">Home</a>
+    					</li>
+    			</ul>
+    		</div>
+    	</div>
     </div>
-
     <div class="container theme-showcase" role="main">
 
       
 <div class="jumbotron">
-  <h1>Yo, Assemble!</h1>
+  <h1>Welcome to SapientNitro!</h1>
   <p>This is a Assemble Generator template using <a href="http://getbootstrap.com">Bootstrap</a>. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
   <p><a href="blog.html" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
 </div>
