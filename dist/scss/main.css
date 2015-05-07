@@ -5926,7 +5926,9 @@ button.close {
     background-color: #fff; }
   .sidebar-wrapper .nav .home-icon img {
     width: 40%;
-    position: center; }
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
 
 #development-framework-page p, #development-framework-page a {
   font-family: SapientSansRegular; }

@@ -2,41 +2,39 @@
 component: navbar
 ---
 <div class="navbar sidebar-wrapper col-md-2" role="navigation">
-	<div class="container-fluid">
-		<div class="navbar-collapse nav-stacked collapse">
-			<ul class="nav">
-				{{#each pages}}
-					{{#is data.section "home"}}
-						<li{{#if this.isCurrentPage}} class="home-icon"{{/if}}>
-							<a href="{{relative dest this.dest}}"><img src="/images/SN_Stamp.png"/></a> 
-						</li>
-					{{/is}}
-				{{/each}}
-				<h3>Getting Started</h3>
-				{{#each pages}}
-					{{#is data.section "gettingStarted"}}
-						<li{{#if this.isCurrentPage}} class="active"{{/if}}>
-							<a href="{{relative dest this.dest}}">{{ data.title }}</a>
-						</li>
-					{{/is}}
-				{{/each}}
-				<h3>Tutorials</h3>
-				{{#each pages}}
-					{{#is data.section "tutorials"}}
-						<li{{#if this.isCurrentPage}} class="active"{{/if}}>
-							<a href="{{relative dest this.dest}}">{{ data.title }}</a>
-						</li>
-					{{/is}}
-				{{/each}}
-				<h3>Going Further</h3>
-				{{#each pages}}
-					{{#is data.section "goingFurther"}}
-						<li{{#if this.isCurrentPage}} class="active"{{/if}}>
-							<a href="{{relative dest this.dest}}">{{ data.title }}</a>
-						</li>
-					{{/is}}
-				{{/each}}
-			</ul>
-		</div>
+	<div class="navbar-collapse nav-stacked collapse">
+		<ul class="nav">
+			{{#each pages}}
+				{{#is data.section "home"}}
+					<li class="home-icon">
+						<a href="{{relative dest this.dest}}"><img src="/images/SN_Stamp.png"/></a> 
+					</li>
+				{{/is}} 
+			{{/each}}
+			<h3>Getting Started</h3>
+			{{#each pages}}
+				{{#is data.section "gettingStarted"}}
+					<li{{#if this.isCurrentPage}} class="active"{{/if}}>
+						<a href="{{relative dest this.dest}}">{{ data.title }}</a>
+					</li>
+				{{/is}}
+			{{/each}}
+			<h3>Tutorials</h3>
+			{{#each pages}}
+				{{#is data.section "tutorials"}}
+					<li{{#if this.isCurrentPage}} class="active"{{/if}}>
+						<a href="{{relative dest this.dest}}">{{ data.title }}</a>
+					</li>
+				{{/is}}
+			{{/each}}
+			<h3>Going Further</h3>
+			{{#each pages}}
+				{{#is data.section "goingFurther"}}
+					<li{{#if this.isCurrentPage}} class="active"{{/if}}>
+						<a href="{{relative dest this.dest}}">{{ data.title }}</a>
+					</li>
+				{{/is}}
+			{{/each}}
+		</ul>
 	</div>
 </div>
