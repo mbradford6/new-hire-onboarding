@@ -1,7 +1,7 @@
 ---
 component: navbar
 ---
-	<div class="navbar sidebar-wrapper col-md-2 navbar-inverse" role="navigation">
+	<div class="navbar sidebar-wrapper col-md-2" role="navigation">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -16,7 +16,7 @@ component: navbar
 					<h3>Getting Started</h3>
 					{{#each pages}}
 						{{#is data.section "gettingStarted"}}
-							<li{{#is page.dest this.dest}} class="active"{{/is}}>
+							<li{{#if this.isCurrentPage}} class="active"{{/if}}>
 								<a href="{{relative dest this.dest}}">{{ data.title }}</a>
 							</li>
 						{{/is}}
@@ -24,7 +24,7 @@ component: navbar
 					<h3>Tutorials</h3>
 					{{#each pages}}
 						{{#is data.section "tutorials"}}
-							<li{{#is dest this.dest}} class="active"{{/is}}>
+							<li{{#if this.isCurrentPage}} class="active"{{/if}}>
 								<a href="{{relative dest this.dest}}">{{ data.title }}</a>
 							</li>
 						{{/is}}
@@ -32,7 +32,7 @@ component: navbar
 					<h3>Going Further</h3>
 					{{#each pages}}
 						{{#is data.section "goingFurther"}}
-							<li{{#is page.dest this.dest}} class="active"{{/is}}>
+							<li{{#if this.isCurrentPage}} class="active"{{/if}}>
 								<a href="{{relative dest this.dest}}">{{ data.title }}</a>
 							</li>
 						{{/is}}

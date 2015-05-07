@@ -5901,21 +5901,25 @@ button.close {
   src: url("../fonts/sapient-fonts/SPNTSKI.TTF"); }
 
 .sidebar-wrapper {
-  padding: 0;
+  padding: 0 0 20px 0;
   max-height: none;
   font-family: SapientSansRegular;
-  font-size: 1.1em; }
+  font-size: 1.1em;
+  background-color: #fff;
+  /*border: 1px solid $gray;*/ }
   .sidebar-wrapper .nav h3 {
     font-family: SapientSansMedium;
-    color: #fff; }
+    color: #040707;
+    border-bottom: 1px solid #1d1d1d; }
   .sidebar-wrapper .nav li a {
-    color: #21addd; }
+    color: #1d1d1d; }
   .sidebar-wrapper .nav li a:hover {
     background-color: #21addd;
     color: #fff; }
+  .sidebar-wrapper .nav li.active {
+    background-color: #21addd; }
+    .sidebar-wrapper .nav li.active a {
+      color: #fff; }
 
 body {
   background-color: #fff; }
-
-#content-wrapper {
-  padding: 0; }

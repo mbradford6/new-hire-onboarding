@@ -1,22 +1,29 @@
 .sidebar-wrapper {
-	padding: 0;
+	padding: 0 0 20px 0;
 	max-height: none;
 	font-family: SapientSansRegular;
 	font-size: 1.1em;
+	background-color: $white;
+	/*border: 1px solid $gray;*/
 
 	.nav {
 		h3 {
 			font-family: SapientSansMedium;
-			color: $white;
+			color: $piano-black;
+			border-bottom: 1px solid $charcoal;
 		}
 
 		li {
 			a {
-				color: $electric-blue;
+				color: $charcoal;
 			}
 			a:hover {
 				background-color: $electric-blue;
 				color: $white;
+			}
+			&.active {
+				background-color: $electric-blue;
+				a { color: $white; }
 			}
 		}
 	}
