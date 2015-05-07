@@ -5923,3 +5923,9 @@ button.close {
 
 body {
   background-color: #fff; }
+
+.external-link {
+  color: #21addd; }
+
+.internal-link {
+  color: #de2728; }

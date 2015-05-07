@@ -1,9 +1,11 @@
 @import "bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap.scss";
 @import "icon.css";
 @import "style.scss";
-@import "global/navbar.scss";
 
 //partials
+
+  //global
+  @import "global/navbar.scss";
 
   //Development-frameworks
   @import "partials/development-frameworks/dev-main.scss";
@@ -13,4 +15,13 @@ body {
 }
 
 #content-wrapper {
+}
+
+
+.external-link{
+  color: $electric-blue;
+}
+
+.internal-link{
+  color: $sapient-heat;
 }
