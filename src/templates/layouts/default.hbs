@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{title}} | {{site.title}}</title>
 
+    <link rel="shortcut icon" href="../images/sn-favicon.png">
+
     <!-- Bootstrap theme -->
     <link rel="stylesheet" href="scss/main.css">
     <!-- <link rel="stylesheet" href="scripts/leaflet-0.7.3/leaflet.css"> -->
@@ -18,17 +20,19 @@
   </head>
   <body>
 
-    {{> navbar }}
+    <div id="entire-page-wrapper">
+      {{> navbar }}
 
-    <div class="container theme-showcase" role="main">
+      <div class="col-md-10 container theme-showcase" id="content-wrapper" role="main">
 
-      {{> body }}
+        {{> body }}
 
+      </div>
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <!-- <script src="https://code.jquery.com/jquery.js"></script> -->
+       <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <!-- <script src="{{assets}}/js/bootstrap.min.js"></script> -->
     </div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <!-- <script src="https://code.jquery.com/jquery.js"></script> -->
-     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!-- <script src="{{assets}}/js/bootstrap.min.js"></script> -->
   </body>
 </html>

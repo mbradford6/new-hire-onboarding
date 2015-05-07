@@ -1,26 +1,43 @@
 ---
 component: navbar
 ---
-
-<div class="navbar navbar-inverse nav-stacked" role="navigation">
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
+	<div class="navbar sidebar-wrapper col-md-2 navbar-inverse" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="navbar-collapse nav-stacked collapse">
+				<ul class="nav">
+					<h3>Getting Started</h3>
+					{{#each pages}}
+						{{#is data.section "gettingStarted"}}
+							<li{{#is page.dest this.dest}} class="active"{{/is}}>
+								<a href="{{relative dest this.dest}}">{{ data.title }}</a>
+							</li>
+						{{/is}}
+					{{/each}}
+					<h3>Tutorials</h3>
+					{{#each pages}}
+						{{#is data.section "tutorials"}}
+							<li{{#is dest this.dest}} class="active"{{/is}}>
+								<a href="{{relative dest this.dest}}">{{ data.title }}</a>
+							</li>
+						{{/is}}
+					{{/each}}
+					<h3>Going Further</h3>
+					{{#each pages}}
+						{{#is data.section "goingFurther"}}
+							<li{{#is page.dest this.dest}} class="active"{{/is}}>
+								<a href="{{relative dest this.dest}}">{{ data.title }}</a>
+							</li>
+						{{/is}}
+					{{/each}}
+				</ul>
+			</div>
 		</div>
-		<div class="navbar-collapse">
-			<ul class="nav navbar-nav">
-				<!-- you can exclude pages using \{{#isnt}} helper: \{{#isnt data.title 'Blog'}} -->
-				{{#each pages}}
-					<li{{#if this.isCurrentPage}} class="active"{{/if}}>
-						<a href="{{relative dest this.dest}}">{{ data.title }}</a>
-					</li>
-				{{/each}}
-			</ul>
-		</div>
-	</div>
 </div>

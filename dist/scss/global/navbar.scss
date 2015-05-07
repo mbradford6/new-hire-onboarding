@@ -1,0 +1,24 @@
+.sidebar-wrapper {
+	padding: 0;
+	max-height: none;
+	font-family: SapientSansRegular;
+	font-size: 1.1em;
+
+	.nav {
+		h3 {
+			font-family: SapientSansMedium;
+			color: $white;
+		}
+
+		li {
+			a {
+				color: $electric-blue;
+			}
+			a:hover {
+				background-color: $electric-blue;
+				color: $white;
+			}
+		}
+	}
+	
+}

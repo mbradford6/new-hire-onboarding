@@ -1,5 +1,17 @@
 @import "bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap.scss";
+@import "icon.css";
+@import "style.scss";
+@import "global/navbar.scss";
 
-body{
-  background-color: red;
+//partials
+
+  //Development-frameworks
+  @import "partials/development-frameworks/dev-main.scss";
+
+body {
+  background-color: $white;
+}
+
+#content-wrapper {
+	padding: 0;
 }

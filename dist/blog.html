@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Text | New hire onboarding</title>
+    <title>Blog | New hire onboarding</title>
+
+    <link rel="shortcut icon" href="../images/sn-favicon.png">
 
     <!-- Bootstrap theme -->
     <link rel="stylesheet" href="scss/main.css">
@@ -18,34 +20,36 @@
   </head>
   <body>
 
-    
-    
-    <div class="navbar navbar-inverse nav-stacked" role="navigation">
-    	<div class="container">
-    		<div class="navbar-header">
-    			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-    	        <span class="sr-only">Toggle navigation</span>
-    	        <span class="icon-bar"></span>
-    	        <span class="icon-bar"></span>
-    	        <span class="icon-bar"></span>
-    	      </button>
-    		</div>
-    		<div class="navbar-collapse">
-    			<ul class="nav navbar-nav">
-    				<!-- you can exclude pages using {{#isnt}} helper: {{#isnt data.title 'Blog'}} -->
-    					<li class="active">
-    						<a href="blog.html">Text</a>
-    					</li>
-    					<li>
-    						<a href="index.html">Home</a>
-    					</li>
-    			</ul>
-    		</div>
-    	</div>
-    </div>
-    <div class="container theme-showcase" role="main">
-
+    <div id="entire-page-wrapper">
       
+      	<div class="navbar sidebar-wrapper col-md-2 navbar-inverse" role="navigation">
+      		<div class="container-fluid">
+      			<div class="navbar-header">
+      				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      				<span class="sr-only">Toggle navigation</span>
+      				<span class="icon-bar"></span>
+      				<span class="icon-bar"></span>
+      				<span class="icon-bar"></span>
+      				</button>
+      			</div>
+      			<div class="navbar-collapse nav-stacked collapse">
+      				<ul class="nav">
+      						<li class="active">
+      							<a href="blog.html">Blog</a>
+      						</li>
+      						<li>
+      							<a href="development-frameworks.html">Frameworks</a>
+      						</li>
+      						<li>
+      							<a href="index.html">Home</a>
+      						</li>
+      				</ul>
+      			</div>
+      		</div>
+      </div>
+      <div class="col-md-10 container theme-showcase" id="content-wrapper" role="main">
+
+        
 <h1>Posts</h1>
   &lt;h1 id=&quot;new-hire-onboarding&quot;&gt;new-hire-onboarding&lt;/h1&gt;
 &lt;blockquote&gt;
@@ -68,11 +72,12 @@
 
 
 
-    </div>
+      </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <!-- <script src="https://code.jquery.com/jquery.js"></script> -->
-     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!-- <script src="assets/js/bootstrap.min.js"></script> -->
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <!-- <script src="https://code.jquery.com/jquery.js"></script> -->
+       <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <!-- <script src="assets/js/bootstrap.min.js"></script> -->
+    </div>
   </body>
 </html>
