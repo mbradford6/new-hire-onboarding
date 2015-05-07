@@ -1,12 +1,6 @@
-.editorconfig
 .yo-rc.json
-AUTHORS
-CHANGELOG
-Gruntfile.js
 LICENSE-MIT
 README.md
-bower.json
 bower_components/
 dist/
 node_modules/
-package.json
