@@ -6,27 +6,27 @@
       "openingRemark": "Node.js is the first and foremost tool to install.",
       "theWhy": "Node.js handles the installation of open source applications through NPM, the package manager for the Node.js server platform. Node functions as a warehouse of third-party applications, while NPM not only delivers the packages but installs the code and manages the code dependencies. All installations are run through the command line.",
       "steps" : [{}]
-      
+
     },
     {
       "tool" : "Yeoman",
-      "siteLink" : "https://nodejs.org/",
-      "openingRemark": "Node.js is the first and foremost tool to install.",
-      "theWhy": "Node.js handles the installation of open source applications through NPM, the package manager for the Node.js server platform. Node functions as a warehouse of third-party applications, while NPM not only delivers the packages but installs the code and manages the code dependencies. All installations are run through the command line.",
+      "siteLink" : "http://yeoman.io/",
+      "openingRemark": "Yeoman scaffolds high quality working web applications. Most projects made by the development team are first built by Yeoman.",
+      "theWhy": "Yeoman combines several functions e.g., creating a starter template, managing dependencies, and providing a local development server. Angular, Assemble, Backbone are the types of projects, but not limited to, that can be instantiated through Yeoman.",
       "steps" : [{}]
     },
     {
       "tool" : "Sass",
-      "siteLink" : "https://nodejs.org/",
-      "openingRemark": "Node.js is the first and foremost tool to install.",
-      "theWhy": "Node.js handles the installation of open source applications through NPM, the package manager for the Node.js server platform. Node functions as a warehouse of third-party applications, while NPM not only delivers the packages but installs the code and manages the code dependencies. All installations are run through the command line.",
+      "siteLink" : "http://sass-lang.com/",
+      "openingRemark": "Sass is a stable, powerful CSS extension, such as allowing mechanisms availble in OO languages.",
+      "theWhy": "Sass supports variable declaration, nesting, mixins, arguments, and selector inheritance.",
       "steps" : [{}]
     },
     {
       "tool" : "Handlebars.js",
-      "siteLink" : "https://nodejs.org/",
-      "openingRemark": "Node.js is the first and foremost tool to install.",
-      "theWhy": "Node.js handles the installation of open source applications through NPM, the package manager for the Node.js server platform. Node functions as a warehouse of third-party applications, while NPM not only delivers the packages but installs the code and manages the code dependencies. All installations are run through the command line.",
+      "siteLink" : "http://handlebarsjs.com/",
+      "openingRemark": "Handlebars build semantic templates.",
+      "theWhy": "Handlebars.js is compatible with Mustache.js, but can handel extensibility and minimal logic with #if, #unless, #with, and #each helpers.",
       "steps" : [{}]
     }
 	]
