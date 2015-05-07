@@ -5,7 +5,17 @@
       "siteLink" : "https://nodejs.org/",
       "openingRemark": "Node.js is the first and foremost tool to install.",
       "theWhy": "Node.js handles the installation of open source applications through NPM, the package manager for the Node.js server platform. Node functions as a warehouse of third-party applications, while NPM not only delivers the packages but installs the code and manages the code dependencies. All installations are run through the command line.",
-      "steps" : [{}]
+      "steps" : [
+				{
+					"list-step" : "Travel to https://nodejs.org/"
+				},
+				{
+					"list-step" : "Click the install button and follow the directions"
+				},
+				{
+					"list-step" : "Make sure the package is installed into /usr/local/bin"
+				}
+			]
 
     },
     {
@@ -13,7 +23,14 @@
       "siteLink" : "http://yeoman.io/",
       "openingRemark": "Yeoman scaffolds high quality working web applications. Most projects made by the development team are first built by Yeoman.",
       "theWhy": "Yeoman combines several functions e.g., creating a starter template, managing dependencies, and providing a local development server. Angular, Assemble, Backbone are the types of projects, but not limited to, that can be instantiated through Yeoman.",
-      "steps" : [{}]
+      "steps" : [
+				{
+					"list-step" : "Install throught the terminal"
+				},
+				{
+					"list-step-terminal" : "npm install -g yo"
+				}
+			]
     },
     {
       "tool" : "Sass",
