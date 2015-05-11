@@ -5900,6 +5900,9 @@ button.close {
   font-family: SapientSansBlackItalic;
   src: url("../scss/fonts/sapient-fonts/SPNTSKI.TTF"); }
 
+.tips p {
+  display: inline; }
+
 .sidebar-wrapper {
   padding: 0 0 20px 0;
   max-height: none;
