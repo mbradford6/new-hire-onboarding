@@ -47,14 +47,44 @@
 
         
 <div id="development-framework-page">
-  <h3>Starting a Project Easier</h3>
-  <p>Most of the following tools can be installed throught the terminal</p>
+  <h2>Starting a Project Easier</h2>
+  <p>The Interactive Development team use the following frameworks to scaffold their projects and instantiate their projects quickly.</p>
 
-  <div class="frameworks-introduction">
+  <div class="row">
+      <div class="yo col-md-4">
+          <div class="row">
+              <h4 class="col-md-5">Yeoman</h4>
+              <img class="col-md-2" src="../images/tool-yo.png"/>
+          </div>
+          <p>Yeoman combines open source tools and streamlines aspects of the web development process. A basic web app as the intial index.html, main sass(if option is chosen, otherwise css), and javascript file. More instensive frameworks, such as Angular, can also be built through Yo.</p>
+      </div>
+      <div class="grunt col-md-4">
+        <div class="row">
+          <h4 class="col-md-5">Grunt</h4>
+          <img class="col-md-2" src="../images/tool-grunt.png"/>
+        </div>
+        <p>Grunt handles automative tasks like minification, compiliation, etc.</p>
+      </div>
+      <div class="bower col-md-4">
+        <div class="row">
+          <h4 class="col-md-5">Bower</h4>
+          <img class="col-md-2" src="../images/tool-bower.png"/>
+        </div>
+        <p>Bower fetches and installs packages and libraries from open-sources and keeps track of the packages in compiled file, bower.json.</p>
+      </div>
+  </div>
+
+
+  <div id="frameworks-introduction">
           <div class="framework-card">
             <h2>Node.js</h2>
             <p class="framework-blurb">Node.js is the first and foremost tool to install.</p>
-            <p class="framework-function">Node.js handles the installation of open source applications through NPM, the package manager for the Node.js server platform. Node functions as a warehouse of third-party applications, while NPM not only delivers the packages but installs the code and manages the code dependencies. All installations are run through the command line.</p>
+            <div class="framework-function">
+                  <p>Node.js handles the installation of open source applications through NPM, the package manager for the Node.js server platform.</p>
+                  <p>Node functions as a warehouse of third-party applications, while NPM not only delivers the packages but installs the code and manages the code dependencies. All node_module installations are run through the command line.</p>
+                  <p></p>
+            </div>
+  
   
             <div class="installation-steps">
                       <p>1. Travel to https://nodejs.org/</p>
@@ -66,7 +96,9 @@
           <div class="framework-card">
             <h2>Yeoman</h2>
             <p class="framework-blurb">Yeoman scaffolds high quality working web applications. Most projects made by the development team are first built by Yeoman.</p>
-            <p class="framework-function">Yeoman combines several functions e.g., creating a starter template, managing dependencies, and providing a local development server. Angular, Assemble, Backbone are the types of projects, but not limited to, that can be instantiated through Yeoman.</p>
+            <div class="framework-function">
+            </div>
+  
   
             <div class="installation-steps">
                       <p>1. Open the terminal</p>
@@ -77,7 +109,9 @@
           <div class="framework-card">
             <h2>Sass</h2>
             <p class="framework-blurb">Sass is a stable, powerful CSS extension, such as allowing mechanisms availble in OO languages.</p>
-            <p class="framework-function">Sass supports variable declaration, nesting, mixins, arguments, and selector inheritance.</p>
+            <div class="framework-function">
+            </div>
+  
   
             <div class="installation-steps">
                       <p>1. Open the terminal</p>
@@ -94,7 +128,9 @@
           <div class="framework-card">
             <h2>Handlebars.js</h2>
             <p class="framework-blurb">Handlebars build semantic templates.</p>
-            <p class="framework-function">Handlebars.js is compatible with Mustache.js, but can handel extensibility and minimal logic with #if, #unless, #with, and #each helpers.</p>
+            <div class="framework-function">
+            </div>
+  
   
             <div class="installation-steps">
                       <p>Handlebars does not provide a global installation.</p>

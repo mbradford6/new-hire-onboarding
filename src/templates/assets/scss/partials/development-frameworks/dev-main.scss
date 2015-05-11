@@ -1,26 +1,37 @@
 #development-framework-page{
 
   p, a{
-    font-family: SapientSansRegular;
-    font-size: 16px;
+      font-family: SapientSansRegular;
+      font-size: 16px;
   }
 
   h2, h3{
-    font-family: SapientSansBold;
+      font-family: SapientSansBold;
   }
 
   .well{
-    background-color: $piano-black;
-    color: $white;
-    font-family: SapientSansLight;
+      background-color: $piano-black;
+      color: $white;
+      font-family: SapientSansLight;
   }
 
-  .installation-steps{
-    padding: 0 50px 0 50px;
+  .yo h4, .grunt h4, .bower h4{
+      line-height: 2;
+  }
 
-    p{
-      margin: 15px 0;
-    }
+  .yo img, .grunt img, .bower img{
+      border-radius: 50%;
+      padding: 5px;
+  }
+
+  .yo img{
+      background-color: #f0f0f0;
+  }
+  .grunt img{
+      background-color: #fba919;
+  }
+  .bower img{
+      background-color: #fcdd2f;
   }
 
 }
