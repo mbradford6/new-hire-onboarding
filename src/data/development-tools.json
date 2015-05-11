@@ -4,7 +4,17 @@
       "tool" : "Node.js",
       "siteLink" : "https://nodejs.org/",
       "openingRemark": "Node.js is the first and foremost tool to install.",
-      "theWhy": "Node.js handles the installation of open source applications through NPM, the package manager for the Node.js server platform. Node functions as a warehouse of third-party applications, while NPM not only delivers the packages but installs the code and manages the code dependencies. All installations are run through the command line.",
+      "highlights": [
+				{
+					"description" : "Node.js handles the installation of open source applications through NPM, the package manager for the Node.js server platform."
+				},
+				{
+					"description" : "Node functions as a warehouse of third-party applications, while NPM not only delivers the packages but installs the code and manages the code dependencies. All node_module installations are run through the command line."
+				},
+				{
+					"description" : ""
+				}
+				],
       "steps" : [
 				{
 					"list-step" : "1. Travel to https://nodejs.org/"

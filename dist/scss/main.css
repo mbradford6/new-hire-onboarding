@@ -5952,9 +5952,28 @@ button.close {
   color: #fff;
   font-family: SapientSansLight; }
 
-#development-framework-page .installation-steps {
+#development-framework-page .yo h4, #development-framework-page .grunt h4, #development-framework-page .bower h4 {
+  line-height: 2; }
+
+#development-framework-page .yo img, #development-framework-page .grunt img, #development-framework-page .bower img {
+  border-radius: 50%;
+  padding: 5px; }
+
+#development-framework-page .yo img {
+  background-color: #f0f0f0; }
+
+#development-framework-page .grunt img {
+  background-color: #fba919; }
+
+#development-framework-page .bower img {
+  background-color: #fcdd2f; }
+
+#frameworks-introduction .framework-blurb {
+  font-family: SapientSansRegularItalic; }
+
+#frameworks-introduction .installation-steps {
   padding: 0 50px 0 50px; }
-  #development-framework-page .installation-steps p {
+  #frameworks-introduction .installation-steps p {
     margin: 15px 0; }
 
 body {
