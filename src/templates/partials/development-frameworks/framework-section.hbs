@@ -14,7 +14,14 @@
               {{#each this.steps}}
                   {{#if this.list-step-terminal}}
                     <div class="well">{{this.list-step-terminal}}</div>
-                  {{else}}
+                  {{/if}}
+                  {{#if this.list-step-helper}}
+                    <p class="step-helper">{{this.list-step-helper}}</p>
+                  {{/if}}
+                  {{#if this.list-step-fine-print}}
+                    <p class="fine-print">{{this.list-step-fine-print}}</p>
+                  {{/if}}
+                  {{#if this.list-step}}
                     <p>{{this.list-step}}</p>
                     {{#if this.imgsrc}}
                       <img src="{{this.imgsrc}}"/>

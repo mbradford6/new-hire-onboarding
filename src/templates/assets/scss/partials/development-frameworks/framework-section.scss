@@ -16,10 +16,20 @@
   }
 
   .installation-steps{
-      padding: 0 50px 0 50px;
+      padding: 0 35px 0 50px;
 
       .well{
         margin-left: 10px;
+      }
+
+      p.step-helper{
+        margin-left: -15px;
+      }
+
+      p.fine-print{
+        margin-left: 0px;
+        font-family:  SapientSansRegularItalic;
+        font-size: 14px;
       }
 
       p{
