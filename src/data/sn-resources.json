@@ -1,0 +1,53 @@
+{
+	"resources": [
+		{
+			"topic": "New Hire Training",
+			"siteLink": "http://peopleportal2/Content/LearningDevelopment/Pages/Sapient-New-Hire-Toolkit-(SapientNitro-and-Government-Services).aspx",
+			"iconClass": "icon-happy2",
+			"description": "Go to the New Hire Toolkit and complete all required training."
+		}, 
+		{
+			"topic": "Enroll for Benefits",
+			"siteLink": "http://peopleportal2/NavPages/Pages/Benefits.aspx?Geo=",
+			"iconClass": "icon-pencil2",
+			"description": "Within your first 30 days as a Sapient employee, you must enroll in all benefits in which you wish to participate. These benefits include 401K, health insurance, and more."
+		},
+		{
+			"topic": "Learning Center",
+			"siteLink": "http://peopleportal2/NavPages/Pages/Learning-Development.aspx",
+			"iconClass": "icon-books",
+			"description": "People Portal hosts the Learning Center where you can gain access to Lynda, a site with instructional videos on just about any technology available, and many other things. Go to the page below, select the first link 'Connect to the SapientNitro Learning Center' in the section titled 'SapientNitro/GS/GSS' to access the learning center. You can also get to the required Ethics training in this learning center."
+		},
+		{
+			"topic": "Development Standards",
+			"siteLink": "http://bp.sapient-lab.com/",
+			"iconClass": "icon-star-empty",
+			"description": "Take a look at the well documented Development Standards we abide by at Sapient. This will help you make writing efficient, readable code a habit. Learn early!"
+		},
+		{
+			"topic": "Conversation Journal",
+			"siteLink": "http://peopleportal2/Pages/PeoplePortal.aspx",
+			"iconClass": "icon-bubbles2",
+			"description": "Keep up with your conversation journal and be sure to make a regular meeting to sit down and talk with your manager about these points. Together, you will discuss your progress, what you need to work on, and be able to better evaluate your work ethic. Go to the People Portal, click on 'My Profile' in the top right, then choose 'Conversation Journal' in the submenu."
+		},
+		{
+			"topic": "Timecards",
+			"siteLink": "http://peopleportal2/Pages/PeoplePortal.aspx",
+			"iconClass": "icon-clock",
+			"description": "Make sure you submit your timecard for the previous week before Monday at 3pm EST. Check with your manager and respective project managers for what PID and task you should enter. Be sure to make detailed comments, not just for those who are approving your timecard, but also so you can reference them to see what you have worked on for your own benefit. Access the People Portal with the link below, and then click on the 'Time Tracking' link in the top right of the page."
+		},
+		{
+			"topic": "Make your Resume",
+			"siteLink": "http://peopleportal2/Content/Staffing/Pages/Resume-Guidelines-and-Templates.aspx",
+			"iconClass": "icon-file-text",
+			"description": "Make your SapientNitro resume and email it to your staffing partner as soon as you can. This way they can better staff you on projects. Be sure to upate it with new skills and experiences as you finish projects during your time here."
+		},
+		{
+			"topic": "SapientNitro Brand Toolkit",
+			"siteLink": "http://peopleportal2/Content/Marketing/Pages/SapientNitro-Brand-Toolkit.aspx",
+			"iconClass": "icon-hammer",
+			"description": "Get acquainted with the SapientNitro styling, including color scheme and font families. You may want to save this site for future reference!"
+		}
+		
+	]
+}
