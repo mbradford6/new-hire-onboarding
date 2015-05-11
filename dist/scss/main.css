@@ -5933,6 +5933,9 @@ button.close {
     margin-left: auto;
     margin-right: auto; }
 
+#development-framework-page .introduction {
+  margin: 25px 15px; }
+
 #development-framework-page p, #development-framework-page a {
   font-family: SapientSansRegular;
   font-size: 16px; }
@@ -5945,12 +5948,17 @@ button.close {
   color: #fff;
   font-family: SapientSansLight; }
 
-#development-framework-page .yo h4, #development-framework-page .grunt h4, #development-framework-page .bower h4 {
+#development-framework-page .yo.col-md-4, #development-framework-page .grunt.col-md-4 {
+  border-right: 1px solid #dfe5e6; }
+
+#development-framework-page .yo.col-md-4 h4, #development-framework-page .grunt.col-md-4 h4, #development-framework-page .bower.col-md-4 h4 {
   line-height: 2; }
 
-#development-framework-page .yo img, #development-framework-page .grunt img, #development-framework-page .bower img {
+#development-framework-page .yo.col-md-4 img, #development-framework-page .grunt.col-md-4 img, #development-framework-page .bower.col-md-4 img {
   border-radius: 50%;
-  padding: 5px; }
+  padding: 5px;
+  float: right;
+  margin-right: 15px; }
 
 #development-framework-page .yo img {
   background-color: #f0f0f0; }
@@ -5961,11 +5969,21 @@ button.close {
 #development-framework-page .bower img {
   background-color: #fcdd2f; }
 
+#frameworks-introduction .framework-card {
+  border-bottom: 1px solid #dfe5e6;
+  margin-bottom: 15px;
+  padding-bottom: 20px; }
+
+#frameworks-introduction .framework-card:last-of-type {
+  border: none; }
+
 #frameworks-introduction .framework-blurb {
   font-family: SapientSansRegularItalic; }
 
 #frameworks-introduction .installation-steps {
   padding: 0 50px 0 50px; }
+  #frameworks-introduction .installation-steps .well {
+    margin-left: 10px; }
   #frameworks-introduction .installation-steps p {
     margin: 15px 0; }
 
