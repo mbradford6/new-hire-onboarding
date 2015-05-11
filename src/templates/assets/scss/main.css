@@ -5901,7 +5901,14 @@ button.close {
   src: url("../scss/fonts/sapient-fonts/SPNTSKI.TTF"); }
 
 .tips p {
-  display: inline; }
+  margin: 20px 0; }
+
+.tips img {
+  width: 50%; }
+
+.tips #terminal-preferences {
+  width: 200px;
+  margin-bottom: 14px; }
 
 .sidebar-wrapper {
   padding: 0 0 20px 0;
