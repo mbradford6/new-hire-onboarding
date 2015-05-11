@@ -5906,9 +5906,11 @@ button.close {
 .tips img {
   width: 50%; }
 
-.tips #terminal-preferences {
-  width: 200px;
+.change-terminal img {
   margin-bottom: 14px; }
+
+.change-terminal #terminal-preferences {
+  width: 200px; }
 
 .sidebar-wrapper {
   padding: 0 0 20px 0;
