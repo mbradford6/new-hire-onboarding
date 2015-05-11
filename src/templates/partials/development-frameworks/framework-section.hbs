@@ -16,9 +16,13 @@
                     <div class="well">{{this.list-step-terminal}}</div>
                   {{else}}
                     <p>{{this.list-step}}</p>
+                    {{#if this.imgsrc}}
+                      <img src="{{this.imgsrc}}"/>
+                    {{/if}}
                   {{/if}}
               {{/each}}
           </div>
+          <p>{{this.closingRemarks}}</p>
           <a class="external-link" href="{{this.siteLink}}">Checkout their website for more information <span class="icon-forward"></span></a>
         </div>
     {{/each}}

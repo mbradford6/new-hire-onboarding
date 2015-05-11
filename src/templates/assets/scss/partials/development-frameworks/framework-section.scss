@@ -2,12 +2,25 @@
 
 #frameworks-introduction{
 
+  .framework-card{
+      border-bottom: 1px solid $gray;
+      margin-bottom: 15px;
+      padding-bottom: 20px;
+  }
+  .framework-card:last-of-type{
+      border: none;
+  }
+
   .framework-blurb{
       font-family:  SapientSansRegularItalic;
   }
 
   .installation-steps{
       padding: 0 50px 0 50px;
+
+      .well{
+        margin-left: 10px;
+      }
 
       p{
           margin: 15px 0;
