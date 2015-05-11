@@ -5,33 +5,47 @@ section: goingFurther
 ---
 <div id="development-framework-page">
   <h2>Starting a Project Easier</h2>
-  <p>The Interactive Development team use the following frameworks to scaffold their projects and instantiate their projects quickly.</p>
+  <p>This page is an introduction into the tools and frameworks used by the Interactive Development to scaffold their projects and instantiate their projects quickly. The page will do a brief synopsis of the most used frameworks and include steps for their installation.</p>
 
-  <div class="row">
-      <div class="yo col-md-4">
-          <div class="row">
-              <h4 class="col-md-5">Yeoman</h4>
-              <img class="col-md-2" src="../images/tool-yo.png"/>
+
+  <div class="content row">
+      <div class="col-md-12">
+
+          <div class="introduction row">
+              <div class="yo col-md-4">
+                  <div class="row">
+                      <h4 class="col-md-5">Yeoman</h4>
+                      <img class="col-md-3" src="../images/tool-yo.png"/>
+                  </div>
+                  <p>Yeoman combines open source tools and streamlines aspects of the web development process. Yo will set up the basic webapp file structure for you, through one line in the terminal. <br><br>More instensive frameworks, such as Angular, can also be built through Yo.</p>
+              </div>
+              <div class="grunt col-md-4">
+                <div class="row">
+                  <h4 class="col-md-5">Grunt</h4>
+                  <img class="col-md-3" src="../images/tool-grunt.png"/>
+                </div>
+                <p>Grunt handles automative tasks like minification, compiliation, etc.<br><br>Grunt is mostly used to build and clean projects and setting up a localhost. Every Gruntfile has a livereload task which will refresh the application as soon as the files is saved in the IDE.</p>
+              </div>
+              <div class="bower col-md-4">
+                <div class="row">
+                  <h4 class="col-md-5">Bower</h4>
+                  <img class="col-md-3" src="../images/tool-bower.png"/>
+                </div>
+                <p>Bower fetches and installs packages and libraries from open-sources and keeps track of the packages in compiled file, bower.json.<br><br>Bower along with NPM speeds up the creation progress. They download and manage your scripts, so you don't have to do it manually.</p>
+              </div>
           </div>
-          <p>Yeoman combines open source tools and streamlines aspects of the web development process. A basic web app as the intial index.html, main sass(if option is chosen, otherwise css), and javascript file. More instensive frameworks, such as Angular, can also be built through Yo.</p>
+
+
+          {{>framework-section development-tools}}
+
+
       </div>
-      <div class="grunt col-md-4">
-        <div class="row">
-          <h4 class="col-md-5">Grunt</h4>
-          <img class="col-md-2" src="../images/tool-grunt.png"/>
-        </div>
-        <p>Grunt handles automative tasks like minification, compiliation, etc.</p>
-      </div>
-      <div class="bower col-md-4">
-        <div class="row">
-          <h4 class="col-md-5">Bower</h4>
-          <img class="col-md-2" src="../images/tool-bower.png"/>
-        </div>
-        <p>Bower fetches and installs packages and libraries from open-sources and keeps track of the packages in compiled file, bower.json.</p>
-      </div>
+
+      <!-- <div class="installation-map col-md-3">
+
+
+      </div> -->
   </div>
 
-
-  {{>framework-section development-tools}}
 
 </div>

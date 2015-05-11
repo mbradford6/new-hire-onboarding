@@ -1,5 +1,9 @@
 #development-framework-page{
 
+  .introduction{
+    margin: 25px 15px;
+  }
+
   p, a{
       font-family: SapientSansRegular;
       font-size: 16px;
@@ -15,13 +19,22 @@
       font-family: SapientSansLight;
   }
 
-  .yo h4, .grunt h4, .bower h4{
-      line-height: 2;
+  .yo.col-md-4, .grunt.col-md-4{
+      border-right: 1px solid $gray;
   }
 
-  .yo img, .grunt img, .bower img{
-      border-radius: 50%;
-      padding: 5px;
+  .yo.col-md-4, .grunt.col-md-4, .bower.col-md-4{
+
+      h4{
+        line-height: 2;
+      }
+
+      img{
+        border-radius: 50%;
+        padding: 5px;
+        float: right;
+        margin-right: 15px;
+      }
   }
 
   .yo img{

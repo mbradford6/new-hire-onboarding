@@ -38,9 +38,11 @@
 					"list-step" : "1. Open the terminal"
 				},
 				{
-					"list-step-terminal" : "npm install -g yo"
+					"list-step-terminal" : "$ npm install -g yo bower grunt-cli"
 				}
-			]
+			],
+			"closingRemarks" : "Grunt and Bower are components of Yeoman, no extra installation is needed. When Yo creates a projects, a Gruntfile.js and bower_components.json are instantiated."
+
     },
     {
       "tool" : "Sass",
@@ -52,7 +54,7 @@
 					"list-step" : "1. Open the terminal"
 				},
 				{
-					"list-step-terminal" : "gem install sass"
+					"list-step-terminal" : "$ gem install sass"
 				},
 				{
 					"list-step" : "**Gem should be preinstalled on Macs"
@@ -61,13 +63,13 @@
 					"list-step" : "2. If you get an error message, then use the sudo command to install the Sass gem"
 				},
 				{
-					"list-step-terminal" : "sudo gem install sass"
+					"list-step-terminal" : "$ sudo gem install sass"
 				},
 				{
 					"list-step" : "3. Check installation"
 				},
 				{
-					"list-step-terminal" : "sass -v"
+					"list-step-terminal" : "$ sass -v"
 				},
 				{
 					"list-step" : "The terminal should print out Sass 3.4.13"
@@ -93,7 +95,7 @@
 					"list-step" : "The files will need to be added to the project"
 				},
 				{
-					"list-step" : "If you created an assemble project, the functionality for handlebars has already been created."
+					"list-step" : "If you created an assemble project, handlebars files have already been imported."
 				}
 			]
     }
