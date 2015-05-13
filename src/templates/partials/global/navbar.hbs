@@ -19,17 +19,19 @@ component: navbar
 					</li>
 				{{/is}}
 			{{/each}}
-			<h3>Tutorials</h3>
+
+			<h3>Going Further</h3>
 			{{#each pages}}
-				{{#is data.section "tutorials"}}
+				{{#is data.section "goingFurther"}}
 					<li{{#if this.isCurrentPage}} class="active"{{/if}}>
 						<a href="{{relative dest this.dest}}">{{ data.title }}</a>
 					</li>
 				{{/is}}
 			{{/each}}
-			<h3>Going Further</h3>
+
+			<h3>Tutorials</h3>
 			{{#each pages}}
-				{{#is data.section "goingFurther"}}
+				{{#is data.section "tutorials"}}
 					<li{{#if this.isCurrentPage}} class="active"{{/if}}>
 						<a href="{{relative dest this.dest}}">{{ data.title }}</a>
 					</li>

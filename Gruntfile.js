@@ -100,11 +100,17 @@ module.exports = function(grunt) {
     },
 
     copy: {
-      bootstrap: {
+      bootstrap: {//change this to bowercomponents? since it's getting bootstrap, slick, jquery, and all?
         expand: true,
         cwd: 'bower_components',
         src: '**',
         dest: '<%= config.dist %>/bower_components'
+      },
+      slick: { 
+        expand: true,
+        cwd: 'bower_components/slick.js/slick',
+        src: '**',
+        dest: '<%= config.dist %>/slick'
       },
       theme: {
         expand: true,

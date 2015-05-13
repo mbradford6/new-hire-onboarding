@@ -1,0 +1,15 @@
+.preview {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	background-color: $charcoal;
+	
+	img {
+		display: block;
+		margin: 10px auto;
+	}
+}
+
+.slick-prev:before, .slick-next:before { 
+	color: $piano-black !important;
+}

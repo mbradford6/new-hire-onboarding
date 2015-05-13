@@ -2,7 +2,8 @@
   "name": "new-hire-onboarding",
   "version": "0.1.0",
   "dependencies": {
-    "bootstrap": "~3.2.0"
+    "bootstrap": "~3.2.0",
+    "slick.js": "~1.5.5"
   },
   "private": true,
   "devDependencies": {
