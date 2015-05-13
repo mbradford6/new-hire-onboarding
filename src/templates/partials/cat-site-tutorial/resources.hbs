@@ -1,0 +1,55 @@
+<div id="cat-site-resources">
+	<h3>Download Comp PDFs</h3>
+	<p>Click below to download the PDFs of this cat website. Notice the landing page has a different layout than the rest of the pages.</p>
+	<a class="download-span" href=""><span class="icon-download2"> Download Zip</span></a>
+
+	<h3>Download Fonts</h3>
+	<p>The fonts to download for this project are called <b>Lobster</b> and <b>Vollkorn</b>. They are available on <a href="https://www.google.com/fonts">Google Fonts</a>, to download if you do not have them. 
+	</p>
+	<p>Then, look up <a href="http://www.adobe.com/products/type/install-instructions.html">how to install fonts</a>.</p>
+
+	<h3>Suggested Generators</h3>
+	<p>Now that all the resources are downloaded, it is time to find a <a href="http://yeoman.io/generators">Yeoman generator</a> to streamline creating this project. We suggest installing the <a href="https://github.com/assemble/generator-assemble">Assemble</a> generator, then searching <a href="http://bower.io/search/">Bower packages</a> for the <a href="https://github.com/twbs/bootstrap-sass#c-bower">Bootstrap and SASS</a> component.</p>
+	<p>Make sure you update your Gruntfile.js after installing these packages to your desired folder directory (presumable located in your Development or SapientProject folder you made). Ask your manager about how to understand the Gruntfile, or <a href="http://gruntjs.com/configuring-tasks">check out this reference</a> to try and make sense of it yourself.
+	</p>
+
+	<h3>Further Tips</h3>
+	<ul>
+		<li><a href="http://kenwheeler.github.io/slick/">Slick</a> is the most robust and cool carosel library out there. We used it on this site! You should try it out on this site to add a gallery of adorable cat photos.</li>
+		<li>We love to use <a href="https://icomoon.io/#preview-free">Icomoon</a> for icons. Add them into a fonts folder inside your css/scss folder.
+			<br/>
+ 			<div class="well well-lg">
+				@font-face { <br/>
+				font-family: 'icomoon';<br/>
+				src:url('../scss/fonts/icomoon.eot?fioqde');<br/>
+				src:url('../scss/fonts/icomoon.eot?#iefixfioqde') format('embedded-opentype'),<br/>
+					url('../scss/fonts/icomoon.woff?fioqde') format('woff'),<br/>
+					url('../scss/fonts/icomoon.ttf?fioqde') format('truetype'),<br/>
+					url('../scss/fonts/icomoon.svg?fioqde#icomoon') format('svg');<br/>
+				font-weight: normal;<br/>
+				font-style: normal;<br/>
+				}<br/><br/>
+
+				[class^="icon-"], [class*=" icon-"] {<br/>
+					font-family: 'icomoon';<br/>
+					speak: none;<br/>
+					font-style: normal;<br/>
+					font-weight: normal;<br/>
+					font-variant: normal;<br/>
+					text-transform: none;<br/>
+					line-height: 1;<br/>
+
+					/* Better Font Rendering =========== */<br/>
+					-webkit-font-smoothing: antialiased;<br/>
+					-moz-osx-font-smoothing: grayscale;<br/>
+				}
+			</div>
+
+			Then you can define a class or each icon after it, for example <br/> 
+			<div class="well well-sm">.icon-home:before { <br/>
+				content: "\e900";
+				}
+			</div>
+		</li>
+	</ul>
+</div>

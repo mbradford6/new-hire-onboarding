@@ -6012,6 +6012,18 @@ button.close {
   #frameworks-introduction .installation-steps p {
     margin: 15px 0; }
 
+.preview {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  background-color: #1d1d1d; }
+  .preview img {
+    display: block;
+    margin: 10px auto; }
+
+.slick-prev:before, .slick-next:before {
+  color: #040707 !important; }
+
 body {
   background-color: #fff; }
 
