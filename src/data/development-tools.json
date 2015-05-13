@@ -32,7 +32,11 @@
       "tool" : "Yeoman",
       "siteLink" : "http://yeoman.io/",
       "openingRemark": "Yeoman scaffolds high quality working web applications. Most projects made by the development team are first built by Yeoman.",
-      "theWhy": "Yeoman combines several functions e.g., creating a starter template, managing dependencies, and providing a local development server. Angular, Assemble, Backbone are the types of projects, but not limited to, that can be instantiated through Yeoman.",
+      "highlights": [
+				{
+					"description" : "Yeoman combines several functions e.g., creating a starter template, managing dependencies, and providing a local development server. Angular, Assemble, Backbone are the types of projects, but not limited to, that can be instantiated through Yeoman."
+				}
+			],
       "steps" : [
 				{
 					"list-step" : "1. Open the terminal"
@@ -48,7 +52,11 @@
       "tool" : "Sass",
       "siteLink" : "http://sass-lang.com/",
       "openingRemark": "Sass is a stable, powerful CSS extension, such as allowing mechanisms availble in OO languages.",
-      "theWhy": "Sass supports variable declaration, nesting, mixins, arguments, and selector inheritance.",
+      "highlights": [
+				{
+					"description" : "Sass supports variable declaration, nesting, mixins, arguments, and selector inheritance."
+				}
+			],
       "steps" : [
 				{
 					"list-step" : "1. Open the terminal"
@@ -57,7 +65,7 @@
 					"list-step-terminal" : "$ gem install sass"
 				},
 				{
-					"list-step" : "**Gem should be preinstalled on Macs"
+					"list-step-fine-print" : "**Gem should be preinstalled on Macs"
 				},
 				{
 					"list-step" : "2. If you get an error message, then use the sudo command to install the Sass gem"
@@ -72,7 +80,7 @@
 					"list-step-terminal" : "$ sass -v"
 				},
 				{
-					"list-step" : "The terminal should print out Sass 3.4.13"
+					"list-step-helper" : "The terminal should print out Sass 3.4.13"
 				}
 			]
     },
@@ -80,10 +88,17 @@
       "tool" : "Handlebars.js",
       "siteLink" : "http://handlebarsjs.com/",
       "openingRemark": "Handlebars build semantic templates.",
-      "theWhy": "Handlebars.js is compatible with Mustache.js, but can handel extensibility and minimal logic with #if, #unless, #with, and #each helpers.",
+			"highlights" : [
+				{
+					"description": "Handlebars.js is compatible with Mustache.js, but can handel extensibility and minimal logic with #if, #unless, #with, and #each helpers."
+				}
+			],
       "steps" : [
 				{
-					"list-step" : "Handlebars does not provide a global installation."
+					"list-step-helper" : "Handlebars does not provide a global installation, but can be downloaded from handlebars.com or be installed through Bower."
+				},
+				{
+					"list-step-helper" : "To Manually install Handlebarsjs:"
 				},
 				{
 					"list-step" : "1. Go to the website http://handlebarsjs.com/"
@@ -92,12 +107,22 @@
 					"list-step" : "2. Click the provided download button"
 				},
 				{
-					"list-step" : "The files will need to be added to the project"
+					"list-step-helper" : "The files will need to be added to the scripts folder in the project manually."
 				},
 				{
-					"list-step" : "If you created an assemble project, handlebars files have already been imported."
+					"list-step-helper" : "For Bower install, open the terminal"
+				},
+				{
+					"list-step-terminal" : "$ bower install handlebars"
+				},
+				{
+					"list-step-helper" : "or"
+				},
+				{
+					"list-step-terminal" : "$ bower install https://github.com/wycats/handlebars.js/"
 				}
-			]
+			],
+			"closingRemarks" : "If you created an assemble project, handlebars files have already been imported."
     }
 	]
 }
