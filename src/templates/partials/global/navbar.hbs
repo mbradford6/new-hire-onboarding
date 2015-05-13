@@ -7,9 +7,9 @@ component: navbar
 			{{#each pages}}
 				{{#is data.section "home"}}
 					<li class="home-icon">
-						<a href="{{relative dest this.dest}}"><img src="/images/SN_Stamp.png"/></a> 
+						<a href="{{relative dest this.dest}}"><img src="/images/SN_Stamp.png"/></a>
 					</li>
-				{{/is}} 
+				{{/is}}
 			{{/each}}
 			<h3>Getting Started</h3>
 			{{#each pages}}
@@ -27,9 +27,17 @@ component: navbar
 					</li>
 				{{/is}}
 			{{/each}}
-			<h3>Going Further</h3>
+			<h3>Development</h3>
 			{{#each pages}}
-				{{#is data.section "goingFurther"}}
+				{{#is data.section "development"}}
+					<li{{#if this.isCurrentPage}} class="active"{{/if}}>
+						<a href="{{relative dest this.dest}}">{{ data.title }}</a>
+					</li>
+				{{/is}}
+			{{/each}}
+			<h3>Comp Tutorials</h3>
+			{{#each pages}}
+				{{#is data.section "comp-tutorial"}}
 					<li{{#if this.isCurrentPage}} class="active"{{/if}}>
 						<a href="{{relative dest this.dest}}">{{ data.title }}</a>
 					</li>

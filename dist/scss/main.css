@@ -5912,6 +5912,16 @@ button.close {
 .change-terminal #terminal-preferences {
   width: 200px; }
 
+.resources {
+  border-bottom: 1px solid #dfe5e6;
+  margin-bottom: 15px;
+  padding-bottom: 20px; }
+  .resources:last-of-type {
+    border: none; }
+
+.comp-tutorial img {
+  width: 100%; }
+
 .sidebar-wrapper {
   padding: 0 0 20px 0;
   max-height: none;
