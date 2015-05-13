@@ -28,6 +28,14 @@ component: navbar
 					</li>
 				{{/is}}
 			{{/each}}
+			<h3>Tutorials</h3>
+			{{#each pages}}
+				{{#is data.section "tutorials"}}
+					<li{{#if this.isCurrentPage}} class="active"{{/if}}>
+						<a href="{{relative dest this.dest}}">{{ data.title }}</a>
+					</li>
+				{{/is}}
+			{{/each}}
 			<h3>Comp Tutorials</h3>
 			{{#each pages}}
 				{{#is data.section "comp-tutorial"}}
@@ -37,14 +45,6 @@ component: navbar
 				{{/is}}
 			{{/each}}
 
-			<h3>Tutorials</h3>
-			{{#each pages}}
-				{{#is data.section "tutorials"}}
-					<li{{#if this.isCurrentPage}} class="active"{{/if}}>
-						<a href="{{relative dest this.dest}}">{{ data.title }}</a>
-					</li>
-				{{/is}}
-			{{/each}}
 		</ul>
 	</div>
 </div>
