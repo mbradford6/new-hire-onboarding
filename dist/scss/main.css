@@ -6018,6 +6018,7 @@ button.close {
   width: 80%;
   background-color: #1d1d1d; }
   .preview img {
+    max-height: 500px;
     display: block;
     margin: 10px auto; }
 
