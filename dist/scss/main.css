@@ -5928,6 +5928,9 @@ button.close {
   margin-right: 15px;
   padding-bottom: 15px; }
 
+.one-page-templates img {
+  width: 24%; }
+
 .sidebar-wrapper {
   padding: 0 0 20px 0;
   max-height: none;
