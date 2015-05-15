@@ -1,0 +1,47 @@
+.framework-description {
+  background-color: $charcoal;
+  color: $white;
+  top: 30px;
+  padding: 50px;
+  margin-right: 30px;
+  border-radius: 20px;
+  float: left;
+
+  h2 {
+    margin-top: 0;
+  }
+  
+  p {
+    margin-top: 20px;
+  }
+} 
+
+@mixin framework-logo($bg) {
+  float: right;
+  height: 300px;
+  width: 300px;
+  margin-right: 50px;
+  background-size: 90%;
+  background-color: $white;
+  border-radius: 300px;
+  background-repeat: no-repeat;
+  background-image: url("../images/framework-logos/" + $bg);
+}
+
+.meteor {
+  @include framework-logo("meteor-logo.png");
+  background-position: 50% 44%;
+}
+
+.handlebars {
+  @include framework-logo("handlebars-logo.png");
+  background-position: 56% 78%;
+  background-size: 88%;
+  background-color: #f15a24;
+}
+
+.github-terminal {
+  @include framework-logo("github-terminal.png");
+  background-position: 50% 50%;
+  background-size: 100%
+}

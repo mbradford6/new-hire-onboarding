@@ -6025,6 +6025,58 @@ button.close {
 .slick-prev:before, .slick-next:before {
   color: #040707 !important; }
 
+.framework-description {
+  background-color: #1d1d1d;
+  color: #fff;
+  top: 30px;
+  padding: 50px;
+  margin-right: 30px;
+  border-radius: 20px;
+  float: left; }
+  .framework-description h2 {
+    margin-top: 0; }
+  .framework-description p {
+    margin-top: 20px; }
+
+.meteor {
+  float: right;
+  height: 300px;
+  width: 300px;
+  margin-right: 50px;
+  background-size: 90%;
+  background-color: #fff;
+  border-radius: 300px;
+  background-repeat: no-repeat;
+  background-image: url("../images/framework-logos/meteor-logo.png");
+  background-position: 50% 44%; }
+
+.handlebars {
+  float: right;
+  height: 300px;
+  width: 300px;
+  margin-right: 50px;
+  background-size: 90%;
+  background-color: #fff;
+  border-radius: 300px;
+  background-repeat: no-repeat;
+  background-image: url("../images/framework-logos/handlebars-logo.png");
+  background-position: 56% 78%;
+  background-size: 88%;
+  background-color: #f15a24; }
+
+.github-terminal {
+  float: right;
+  height: 300px;
+  width: 300px;
+  margin-right: 50px;
+  background-size: 90%;
+  background-color: #fff;
+  border-radius: 300px;
+  background-repeat: no-repeat;
+  background-image: url("../images/framework-logos/github-terminal.png");
+  background-position: 50% 50%;
+  background-size: 100%; }
+
 body {
   background-color: #fff; }
 
