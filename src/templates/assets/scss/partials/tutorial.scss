@@ -1,9 +1,14 @@
-.one-page-templates{
 
-}
 
 .comp-tutorial{
   img{
     width: 100%;
+  }
+
+  .intro-section{
+      border-bottom: 1px solid $gray;
+      margin-top: 25px;
+      margin-right: 15px;
+      padding-bottom: 15px;
   }
 }
