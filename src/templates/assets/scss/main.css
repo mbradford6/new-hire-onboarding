@@ -5922,6 +5922,15 @@ button.close {
 .comp-tutorial img {
   width: 100%; }
 
+.comp-tutorial .intro-section {
+  border-bottom: 1px solid #dfe5e6;
+  margin-top: 25px;
+  margin-right: 15px;
+  padding-bottom: 15px; }
+
+.one-page-templates img {
+  width: 24%; }
+
 .sidebar-wrapper {
   padding: 0 0 20px 0;
   max-height: none;
