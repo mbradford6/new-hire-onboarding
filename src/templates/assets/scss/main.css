@@ -5931,6 +5931,18 @@ button.close {
 .one-page-templates img {
   width: 24%; }
 
+.video-section .video-title {
+  cursor: pointer; }
+  .video-section .video-title span {
+    margin-right: 10px; }
+
+.video-section .video-author {
+  color: #de2728; }
+
+.video-section .video-description {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dfe5e6; }
+
 .sidebar-wrapper {
   padding: 0 0 20px 0;
   max-height: none;
@@ -6047,7 +6059,7 @@ button.close {
   .framework-description p {
     margin-top: 20px; }
 
-.meteor {
+.meteor-tutorial {
   float: right;
   height: 300px;
   width: 300px;
@@ -6059,7 +6071,7 @@ button.close {
   background-image: url("../images/framework-logos/meteor-logo.png");
   background-position: 50% 44%; }
 
-.handlebars {
+.handlebars-tutorial {
   float: right;
   height: 300px;
   width: 300px;
@@ -6073,7 +6085,7 @@ button.close {
   background-size: 88%;
   background-color: #f15a24; }
 
-.github-terminal {
+.github-terminal-tutorial {
   float: right;
   height: 300px;
   width: 300px;
@@ -6085,6 +6097,45 @@ button.close {
   background-image: url("../images/framework-logos/github-terminal.png");
   background-position: 50% 50%;
   background-size: 100%; }
+
+.assemble-tutorial {
+  float: right;
+  height: 300px;
+  width: 300px;
+  margin-right: 50px;
+  background-size: 90%;
+  background-color: #fff;
+  border-radius: 300px;
+  background-repeat: no-repeat;
+  background-image: url("../images/framework-logos/assemble.png");
+  background-position: 50% 50%;
+  background-size: 100%; }
+
+.grunt-tutorial {
+  float: right;
+  height: 300px;
+  width: 300px;
+  margin-right: 50px;
+  background-size: 90%;
+  background-color: #fff;
+  border-radius: 300px;
+  background-repeat: no-repeat;
+  background-image: url("../images/framework-logos/tool-grunt.png");
+  background-position: 50% 65%;
+  background-size: 90%; }
+
+.angular-tutorial {
+  float: right;
+  height: 300px;
+  width: 300px;
+  margin-right: 50px;
+  background-size: 90%;
+  background-color: #fff;
+  border-radius: 300px;
+  background-repeat: no-repeat;
+  background-image: url("../images/framework-logos/angular-logo.png");
+  background-position: 50% 50%;
+  background-size: 150%; }
 
 body {
   background-color: #fff; }

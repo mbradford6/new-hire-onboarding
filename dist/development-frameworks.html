@@ -36,16 +36,25 @@
       						<a href="helpful-tips.html">Helpful Tips</a>
       					</li>
       					<li>
+      						<a href="lynda-videos.html">Lynda Videos</a>
+      					</li>
+      					<li>
       						<a href="sn-resources.html">SapientNitro Resources</a>
       					</li>
       
-      			<h3>Development</h3>
+      			<h3>Development Tips</h3>
       					<li class="active">
       						<a href="development-frameworks.html">Development Frameworks</a>
       					</li>
-      			<h3>Tutorials</h3>
       					<li>
-      						<a href="handlebars.html">Handlebars {{ }}</a>
+      						<a href="javascript.html">JavaScript</a>
+      					</li>
+      					<li>
+      						<a href="sn-dev-standards.html">SN Development Standards</a>
+      					</li>
+      			<h3>Framework Tutorials</h3>
+      					<li>
+      						<a href="assemble.html">Assemble</a>
       					</li>
       					<li>
       						<a href="github-terminal.html">GitHub and Terminal</a>
@@ -54,10 +63,16 @@
       						<a href="grunt.html">Grunt</a>
       					</li>
       					<li>
-      						<a href="assemble.html">Assemble</a>
+      						<a href="handlebars.html">Handlebars {{ }}</a>
+      					</li>
+      					<li>
+      						<a href="angular.html">Angular.js</a>
       					</li>
       					<li>
       						<a href="meteor.html">Meteor</a>
+      					</li>
+      					<li>
+      						<a href="regex.html">Regex</a>
       					</li>
       			<h3>Comp Tutorials</h3>
       					<li>
@@ -79,7 +94,7 @@
         
 <div id="development-framework-page">
   <h2>Starting a Project Easier</h2>
-  <p>This page is an introduction into the tools and frameworks used by the Interactive Development to scaffold their projects and instantiate their projects quickly. The page will do a brief synopsis of the most used frameworks and include steps for their installation.</p>
+  <p>This page serves as an introduction to the tools and frameworks used by the Interactive Developers to scaffold their projects and begin and maintain a quick and efficient workflow. Below you will find a brief synopsis of the most used frameworks and steps to install them.</p>
 
 
   <div class="content row">
@@ -91,21 +106,21 @@
                       <h4 class="col-md-5">Yeoman</h4>
                       <img class="col-md-3" src="../images/tool-yo.png"/>
                   </div>
-                  <p>Yeoman combines open source tools and streamlines aspects of the web development process. Yo will set up the basic webapp file structure for you, through one line in the terminal. <br><br>More instensive frameworks, such as Angular, can also be built through Yo.</p>
+                  <p>Yeoman combines open source tools and streamlines aspects of the project development process. Yo will set up basic application file structures for you, just by entering one line in the Terminal. Some projects allow you to choose what frameworks you wish you use, for instance Bootstrap or SemanticUI, AngularJS or Backbone. Once you run the Yo command, your project file structure is created with the dependencies needed for the frameworks you specified already installed and ready to use.
               </div>
               <div class="grunt col-md-4">
                 <div class="row">
                   <h4 class="col-md-5">Grunt</h4>
                   <img class="col-md-3" src="../images/tool-grunt.png"/>
                 </div>
-                <p>Grunt handles automative tasks like minification, compiliation, etc.<br><br>Grunt is mostly used to build and clean projects and setting up a localhost. Every Gruntfile has a livereload task which will refresh the application as soon as the files is saved in the IDE.</p>
+                <p>Grunt handles automated tasks like minification, compiliation, etc.<br><br>Grunt is mostly used to build and clean projects and to set up projects on a localhost. Your Gruntfile, which defines the Grunt tasks, can have a livereload task which will refresh the application in your browser as soon as the files are saved in your work environment. This is just one example of how the Grunt task manager can make your workflow faster and easier.</p>
               </div>
               <div class="bower col-md-4">
                 <div class="row">
                   <h4 class="col-md-5">Bower</h4>
                   <img class="col-md-3" src="../images/tool-bower.png"/>
                 </div>
-                <p>Bower fetches and installs packages and libraries from open-sources and keeps track of the packages in compiled file, bower.json.<br><br>Bower along with NPM speeds up the creation progress. They download and manage your scripts, so you don't have to do it manually.</p>
+                <p>Bower fetches and installs packages and libraries from open-sources and keeps track of the packages in a compiled file, "bower.json", in your project's root directory.<br><br>Bower, along with NPM (Node Package Manager), speeds up the project creation procress. They download and manage your scripts so you don't have to do it manually.</p>
               </div>
           </div>
 
@@ -115,8 +130,8 @@
                     <h2>Node.js</h2>
                     <p class="framework-blurb">Node.js is the first and foremost tool to install.</p>
                     <div class="framework-function">
-                          <p>Node.js handles the installation of open source applications through NPM, the package manager for the Node.js server platform.</p>
-                          <p>Node functions as a warehouse of third-party applications, while NPM not only delivers the packages but installs the code and manages the code dependencies. All node_module installations are run through the command line.</p>
+                          <p>Node.js handles the installation of open source applications through NPM (Node Package Manager), the package manager for the Node.js server platform.</p>
+                          <p>Node functions as a warehouse of third-party applications, while NPM not only delivers the packages but installs the code and manages the code dependencies. All &#x27;node_module&#x27; installations are run through the Terminal command line.</p>
                           <p></p>
                     </div>
           
@@ -126,27 +141,27 @@
                               <p>3. Make sure the package is installed into /usr/local/bin</p>
                     </div>
                     <p></p>
-                    <a class="external-link" href="https://nodejs.org/">Checkout their website for more information <span class="icon-forward"></span></a>
+                    <a class="external-link" href="https://nodejs.org/" target="_blank">Checkout their website for more information <span class="icon-forward"></span></a>
                   </div>
                   <div class="framework-card">
                     <h2>Yeoman</h2>
-                    <p class="framework-blurb">Yeoman scaffolds high quality working web applications. Most projects made by the development team are first built by Yeoman.</p>
+                    <p class="framework-blurb">Yeoman scaffolds high quality working web applications. Most projects made by the development team are first scaffolded with Yeoman, so browse through the Yeoman generators first for an existing project scaffold before building your own from scratch.</p>
                     <div class="framework-function">
-                          <p>Yeoman combines several functions e.g., creating a starter template, managing dependencies, and providing a local development server. Angular, Assemble, Backbone are the types of projects, but not limited to, that can be instantiated through Yeoman.</p>
+                          <p>Yeoman combines several functions, e.g. creating a starter template, managing dependencies, and providing a local development server. AngularJS, Assemble, Backbone are just a few examples of project structures that can be instantiated with Yeoman.</p>
                     </div>
           
                     <div class="installation-steps">
                               <p>1. Open the terminal</p>
                               <div class="well">$ npm install -g yo bower grunt-cli</div>
                     </div>
-                    <p>Grunt and Bower are components of Yeoman, no extra installation is needed. When Yo creates a projects, a Gruntfile.js and bower_components.json are instantiated.</p>
-                    <a class="external-link" href="http://yeoman.io/">Checkout their website for more information <span class="icon-forward"></span></a>
+                    <p>Grunt and Bower are components of Yeoman, no extra installation is needed. When Yo creates a project, a &#x27;Gruntfile.js&#x27; and &#x27;bower_components.json&#x27; are created in the root directory.</p>
+                    <a class="external-link" href="http://yeoman.io/" target="_blank">Checkout their website for more information <span class="icon-forward"></span></a>
                   </div>
                   <div class="framework-card">
                     <h2>Sass</h2>
-                    <p class="framework-blurb">Sass is a stable, powerful CSS extension, such as allowing mechanisms availble in OO languages.</p>
+                    <p class="framework-blurb">Sass is a stable, powerful CSS extension, which harbors benefits like allowing functionality available in Object Oriented languages.</p>
                     <div class="framework-function">
-                          <p>Sass supports variable declaration, nesting, mixins, arguments, and selector inheritance.</p>
+                          <p>Sass supports CSS variable declaration, nesting, mixins, arguments, and selector inheritance. Note: &#x27;gem&#x27; is a Ruby declaration.</p>
                     </div>
           
                     <div class="installation-steps">
@@ -160,28 +175,28 @@
                               <p class="step-helper">The terminal should print out Sass 3.4.13</p>
                     </div>
                     <p></p>
-                    <a class="external-link" href="http://sass-lang.com/">Checkout their website for more information <span class="icon-forward"></span></a>
+                    <a class="external-link" href="http://sass-lang.com/" target="_blank">Checkout their website for more information <span class="icon-forward"></span></a>
                   </div>
                   <div class="framework-card">
                     <h2>Handlebars.js</h2>
-                    <p class="framework-blurb">Handlebars build semantic templates.</p>
+                    <p class="framework-blurb">Handlebars builds semantic web page templates.</p>
                     <div class="framework-function">
-                          <p>Handlebars.js is compatible with Mustache.js, but can handel extensibility and minimal logic with #if, #unless, #with, and #each helpers.</p>
+                          <p>Handlebars.js is compatible with Mustache.js, but can handle extensibility and minimal logic with &#x27;#if&#x27;, &#x27;#unless&#x27;, &#x27;#with&#x27;, and &#x27;#each&#x27; helpers.</p>
                     </div>
           
                     <div class="installation-steps">
                               <p class="step-helper">Handlebars does not provide a global installation, but can be downloaded from handlebars.com or be installed through Bower.</p>
-                              <p class="step-helper">To Manually install Handlebarsjs:</p>
+                              <p class="step-helper">To Manually install Handlebars.js:</p>
                               <p>1. Go to the website http://handlebarsjs.com/</p>
                               <p>2. Click the provided download button</p>
                               <p class="step-helper">The files will need to be added to the scripts folder in the project manually.</p>
-                              <p class="step-helper">For Bower install, open the terminal</p>
+                              <p class="step-helper">For Bower install, open the Terminal</p>
                               <div class="well">$ bower install handlebars</div>
                               <p class="step-helper">or</p>
                               <div class="well">$ bower install https://github.com/wycats/handlebars.js/</div>
                     </div>
-                    <p>If you created an assemble project, handlebars files have already been imported.</p>
-                    <a class="external-link" href="http://handlebarsjs.com/">Checkout their website for more information <span class="icon-forward"></span></a>
+                    <p>If you created an Assemble project, Handlebars files have already been imported.</p>
+                    <a class="external-link" href="http://handlebarsjs.com/" target="_blank">Checkout their website for more information <span class="icon-forward"></span></a>
                   </div>
           </div>
 
@@ -208,7 +223,9 @@
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="../bower_components/jquery-ui/jquery-ui.min.js"></script>
     <script type="text/javascript" src="../slick/slick.min.js"></script>
     <script type="text/javascript" src="../js/main.js"></script>
+    <script type="text/javascript" src="../js/lynda-videos.js"></script>
   </body>
 </html>

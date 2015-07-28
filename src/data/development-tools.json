@@ -6,10 +6,10 @@
       "openingRemark": "Node.js is the first and foremost tool to install.",
       "highlights": [
 				{
-					"description" : "Node.js handles the installation of open source applications through NPM, the package manager for the Node.js server platform."
+					"description" : "Node.js handles the installation of open source applications through NPM (Node Package Manager), the package manager for the Node.js server platform."
 				},
 				{
-					"description" : "Node functions as a warehouse of third-party applications, while NPM not only delivers the packages but installs the code and manages the code dependencies. All node_module installations are run through the command line."
+					"description" : "Node functions as a warehouse of third-party applications, while NPM not only delivers the packages but installs the code and manages the code dependencies. All 'node_module' installations are run through the Terminal command line."
 				},
 				{
 					"description" : ""
@@ -31,10 +31,10 @@
     {
       "tool" : "Yeoman",
       "siteLink" : "http://yeoman.io/",
-      "openingRemark": "Yeoman scaffolds high quality working web applications. Most projects made by the development team are first built by Yeoman.",
+      "openingRemark": "Yeoman scaffolds high quality working web applications. Most projects made by the development team are first scaffolded with Yeoman, so browse through the Yeoman generators first for an existing project scaffold before building your own from scratch.",
       "highlights": [
 				{
-					"description" : "Yeoman combines several functions e.g., creating a starter template, managing dependencies, and providing a local development server. Angular, Assemble, Backbone are the types of projects, but not limited to, that can be instantiated through Yeoman."
+					"description" : "Yeoman combines several functions, e.g. creating a starter template, managing dependencies, and providing a local development server. AngularJS, Assemble, Backbone are just a few examples of project structures that can be instantiated with Yeoman."
 				}
 			],
       "steps" : [
@@ -45,16 +45,16 @@
 					"list-step-terminal" : "$ npm install -g yo bower grunt-cli"
 				}
 			],
-			"closingRemarks" : "Grunt and Bower are components of Yeoman, no extra installation is needed. When Yo creates a projects, a Gruntfile.js and bower_components.json are instantiated."
+			"closingRemarks" : "Grunt and Bower are components of Yeoman, no extra installation is needed. When Yo creates a project, a 'Gruntfile.js' and 'bower_components.json' are created in the root directory."
 
     },
     {
       "tool" : "Sass",
       "siteLink" : "http://sass-lang.com/",
-      "openingRemark": "Sass is a stable, powerful CSS extension, such as allowing mechanisms availble in OO languages.",
+      "openingRemark": "Sass is a stable, powerful CSS extension, which harbors benefits like allowing functionality available in Object Oriented languages.",
       "highlights": [
 				{
-					"description" : "Sass supports variable declaration, nesting, mixins, arguments, and selector inheritance."
+					"description" : "Sass supports CSS variable declaration, nesting, mixins, arguments, and selector inheritance. Note: 'gem' is a Ruby declaration."
 				}
 			],
       "steps" : [
@@ -87,10 +87,10 @@
     {
       "tool" : "Handlebars.js",
       "siteLink" : "http://handlebarsjs.com/",
-      "openingRemark": "Handlebars build semantic templates.",
+      "openingRemark": "Handlebars builds semantic web page templates.",
 			"highlights" : [
 				{
-					"description": "Handlebars.js is compatible with Mustache.js, but can handel extensibility and minimal logic with #if, #unless, #with, and #each helpers."
+					"description": "Handlebars.js is compatible with Mustache.js, but can handle extensibility and minimal logic with '#if', '#unless', '#with', and '#each' helpers."
 				}
 			],
       "steps" : [
@@ -98,7 +98,7 @@
 					"list-step-helper" : "Handlebars does not provide a global installation, but can be downloaded from handlebars.com or be installed through Bower."
 				},
 				{
-					"list-step-helper" : "To Manually install Handlebarsjs:"
+					"list-step-helper" : "To Manually install Handlebars.js:"
 				},
 				{
 					"list-step" : "1. Go to the website http://handlebarsjs.com/"
@@ -110,7 +110,7 @@
 					"list-step-helper" : "The files will need to be added to the scripts folder in the project manually."
 				},
 				{
-					"list-step-helper" : "For Bower install, open the terminal"
+					"list-step-helper" : "For Bower install, open the Terminal"
 				},
 				{
 					"list-step-terminal" : "$ bower install handlebars"
@@ -122,7 +122,7 @@
 					"list-step-terminal" : "$ bower install https://github.com/wycats/handlebars.js/"
 				}
 			],
-			"closingRemarks" : "If you created an assemble project, handlebars files have already been imported."
+			"closingRemarks" : "If you created an Assemble project, Handlebars files have already been imported."
     }
 	]
 }

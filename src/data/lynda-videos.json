@@ -1,0 +1,24 @@
+{
+	"videos" : [
+		{
+			"title" : "Responsive CSS with SASS and Compass",
+			"author" : "Ray Villalobos",
+			"description" : "Great tutorial that goes almost step-by-step through our workflow process. Learn how to install and the purpose behind frameworks like Node.js, npm, Susy, Grunt. Learn what goes into the Gruntfile and how to configure it. Also, learn how to set up your folder direcotry, what goes in the package.json file, how to add version control like Git, understand the .gitignore file, and the Grunt workflow."
+		},
+		{
+			"title" : "Coding Faster with Emmet",
+			"author" : "Ray Villalobos",
+			"description" : "Lorem ipsum dolor sit amet."
+		},
+		{
+			"title" : "JavaScript: Enhancing the DOM",
+			"author" : "Ray Villalobos",
+			"description" : "Lorem ipsum dolor sit amet."
+		},
+		{
+			"title" : "CSS: Core Concepts",
+			"author" : "James Williamson",
+			"description" : "Describes the core foundation of CSS (Cascading Style Sheets), with topics including default styling, writing selectors, setting properties, units of measurements, structuring HTML correctly, understanding the box model, styling container elements, understanding cascading and inheritance, styling drop shadows, and more. Although you may be familiar with these principals, this video delves deep into the topics, revealing concepts and techniques you may not have been aware of."
+		}
+	]
+}

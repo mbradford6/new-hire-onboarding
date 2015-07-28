@@ -20,7 +20,7 @@ component: navbar
 				{{/is}}
 			{{/each}}
 
-			<h3>Development</h3>
+			<h3>Development Tips</h3>
 			{{#each pages}}
 				{{#is data.section "development"}}
 					<li{{#if this.isCurrentPage}} class="active"{{/if}}>
@@ -28,7 +28,7 @@ component: navbar
 					</li>
 				{{/is}}
 			{{/each}}
-			<h3>Tutorials</h3>
+			<h3>Framework Tutorials</h3>
 			{{#each pages}}
 				{{#is data.section "tutorials"}}
 					<li{{#if this.isCurrentPage}} class="active"{{/if}}>

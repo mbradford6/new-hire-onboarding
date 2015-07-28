@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "dependencies": {
     "bootstrap": "~3.2.0",
-    "slick.js": "~1.5.5"
+    "slick.js": "~1.5.5",
+    "jquery-ui": "~1.11.4"
   },
   "private": true,
   "devDependencies": {

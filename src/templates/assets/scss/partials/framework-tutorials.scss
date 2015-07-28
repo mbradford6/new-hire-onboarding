@@ -10,11 +10,11 @@
   h2 {
     margin-top: 0;
   }
-  
+
   p {
     margin-top: 20px;
   }
-} 
+}
 
 @mixin framework-logo($bg) {
   float: right;
@@ -28,20 +28,38 @@
   background-image: url("../images/framework-logos/" + $bg);
 }
 
-.meteor {
+.meteor-tutorial {
   @include framework-logo("meteor-logo.png");
   background-position: 50% 44%;
 }
 
-.handlebars {
+.handlebars-tutorial {
   @include framework-logo("handlebars-logo.png");
   background-position: 56% 78%;
   background-size: 88%;
   background-color: #f15a24;
 }
 
-.github-terminal {
+.github-terminal-tutorial {
   @include framework-logo("github-terminal.png");
   background-position: 50% 50%;
   background-size: 100%
+}
+
+.assemble-tutorial {
+  @include framework-logo("assemble.png");
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+
+.grunt-tutorial {
+  @include framework-logo("tool-grunt.png");
+  background-position: 50% 65%;
+  background-size: 90%;
+}
+
+.angular-tutorial {
+  @include framework-logo("angular-logo.png");
+  background-position: 50% 50%;
+  background-size: 150%;
 }

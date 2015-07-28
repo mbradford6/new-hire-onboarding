@@ -1,0 +1,27 @@
+{"resources" : [
+  {
+    "title": "Code School",
+    "siteLink": "https://www.codeschool.com/courses/javascript-road-trip-part-1",
+    "description": "Try Code School's free tutorial for an interactive way to understand the foundations of JavaScript"
+  },
+  {
+    "title": "Udemy",
+    "siteLink": "https://www.udemy.com/understand-javascript/#/",
+    "description": "Udemy's course 'JavaScript the Weird Parts' is one of the absolute best videos you can watch to truly understand how JavaScript works. Wait for a time when the video goes on sale for about $15 instead of paying full price. Or ask one of your fellow developers if they have it and if you can watch the video on their account."
+  },
+  {
+    "title": "Codecademy",
+    "siteLink": "http://www.codecademy.com/en/tracks/javascript",
+    "description": "Codecademy's JavaScript tutorial helps you learn the fundamentals of JS."
+  },
+  {
+    "title": "Blog Post on apply(), bind(), and call()",
+    "siteLink": "http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/",
+    "description": "Learn about JavaScript's apply, call, and bind methods in this thorough blog post."
+  },
+  {
+    "title": "Github Essential JS Resources",
+    "siteLink": "https://github.com/ericelliott/essential-javascript-links",
+    "description": "See this github page with a hefty list of essential JavaScript links."
+  }
+]}

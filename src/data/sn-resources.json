@@ -5,7 +5,7 @@
 			"siteLink": "http://peopleportal2/Content/LearningDevelopment/Pages/Sapient-New-Hire-Toolkit-(SapientNitro-and-Government-Services).aspx",
 			"iconClass": "icon-happy2",
 			"description": "Go to the New Hire Toolkit and complete all required training."
-		}, 
+		},
 		{
 			"topic": "Enroll for Benefits",
 			"siteLink": "http://peopleportal2/NavPages/Pages/Benefits.aspx?Geo=",
@@ -16,13 +16,13 @@
 			"topic": "Learning Center",
 			"siteLink": "http://peopleportal2/NavPages/Pages/Learning-Development.aspx",
 			"iconClass": "icon-books",
-			"description": "People Portal hosts the Learning Center where you can gain access to Lynda, a site with instructional videos on just about any technology available, and many other things. Go to the page below, select the first link 'Connect to the SapientNitro Learning Center' in the section titled 'SapientNitro/GS/GSS' to access the learning center. You can also get to the required Ethics training in this learning center."
+			"description": "People Portal hosts the Learning Center where you can gain access to Lynda, a site with instructional videos on just about any technology available, finances, professional workplace skills, and much more. Go to the page below, select the first link 'Connect to the SapientNitro Learning Center' in the section titled 'SapientNitro/GS/GSS' to access the learning center. You can also get to the required Ethics training in this learning center."
 		},
 		{
-			"topic": "Development Standards",
+			"topic": "SapientNitro Development Standards",
 			"siteLink": "http://bp.sapient-lab.com/",
 			"iconClass": "icon-star-empty",
-			"description": "Take a look at the well documented Development Standards we abide by at Sapient. This will help you make writing efficient, readable code a habit. Learn early!"
+			"description": "Take a look at the well documented Development Standards we abide by at Sapient. This will help you to make writing efficient and readable code a habit. Learn early!"
 		},
 		{
 			"topic": "Conversation Journal",
@@ -48,6 +48,6 @@
 			"iconClass": "icon-hammer",
 			"description": "Get acquainted with the SapientNitro styling, including color scheme and font families. You may want to save this site for future reference!"
 		}
-		
+
 	]
 }
