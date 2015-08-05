@@ -1,0 +1,36 @@
+---
+title: Add Content
+section: gettingStarted
+---
+<h1>{{title}}</h1>
+<div class="add-content">
+  <p>If you stumble across resources you think would be helpful to other Interactive Developers, share it with them by posting it to this site! Just put in an appropriate page title, the category you think it'd best fit under, and a little description of what you have found.</p>
+
+  <div class="container-fluid">
+    <h3><span class="icon-plus"> </span>Add Content Below</h3>
+   <form>
+      <div class="form-group">
+          <label for="titleAddContent">Title of Page:</label>
+          <input type="text" class="form-control" name="title" id="titleAddContent">
+      </div>
+      <div class="form-group">
+          <label for="urlAddContent">URL to link to:</label>
+          <input type="text" class="form-control" name="url" id="urlAddContent">
+      </div>
+      <div class="form-group">
+         <label for="categoryAddContent">Category page belongs to:</label>
+         <select name="category" class="form-control" id="categoryAddCategory">
+            <option value="gettingStarted">Getting Started</option>
+            <option value="development">Development Tips</option>
+            <option value="tutorials">Tutorials</option>
+          </select>
+      </div>
+      <div class="form-group">
+         <label for="descriptionAddContent">Description:</label>
+         <textarea type="text" class="form-control" rows="3" name="description" id="descriptionAddContent"></textarea>
+      </div>
+      <button type="submit" value="Submit" class="btn btn-default">Submit</button>
+
+   </form>
+  </div>
+</div>

@@ -4,6 +4,7 @@
   top: 30px;
   padding: 50px;
   margin-right: 30px;
+  min-width: 845px;
   border-radius: 20px;
   float: left;
 
@@ -62,4 +63,11 @@
   @include framework-logo("angular-logo.png");
   background-position: 50% 50%;
   background-size: 150%;
+}
+
+@media (min-width: $med-width) {
+  .framework-description {
+    // min-width:40%;
+  }
+
 }
